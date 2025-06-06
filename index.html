@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aroma Thai | Home</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/icons/favicon.ico" type="image/x-icon">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" 
+        rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Reset styles-->
+    <link rel="stylesheet" href="assets/css/reset.css">
+
+    <!-- Global styles -->
+    <link rel="stylesheet" href="assets/css/global.css">
+
+    <!-- Bootstrap Grid -->
+     <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="assets/css/index.css">
+
+</head>
+<body>
+
+    <div id="top"></div>
+
+    <header>
+        <div class="container">
+            <a href="index.html"><img src="/assets/images/Logo.png" alt="logo"></a>
+            <input type="checkbox" class="navToggler" id="navToggler">
+            <label for="navToggler" class="navTogglerMenu">
+                <i class="fa-solid fa-bars menuOpen"></i>
+                <i class="fa-solid fa-xmark menuClose"></i>
+            </label>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="catering.html">Catering</a></li>
+                    <li><a href="https://order.online/store/aroma-thai-289488" class="button button-red">Order Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <div id="carousel" class="w-100 overflow-hidden">
+        <div class="carousel-indicators d-flex">
+            <button type="button" class="active"></button>
+            <button type="button"></button>
+            <button type="button"></button>    
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item d-block">
+                <img src="assets/images/hero.png" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/pexels-sai-kuen-leung-452610443-31029751.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/red-curry.jpg" alt="">
+            </div>
+        </div>
+        
+        <button type="button" class="control-prev">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button type="button" class="control-next">
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
+    </div>
+
+
+
+
+    <section class="welcome text-center">
+        <div class="container">
+            <h1 class="float-up">FROM OUR KITCHEN TO YOUR TABLE</h1>
+            <p class="display">tasty quality. fresh ingredients.</p>
+            <a href="/menu.html" class="button button-green zoom-loop">See Menu</a>
+        </div>
+    </section>
+
+
+
+    <section class="featured-items text-white text-center" >
+        <div class="container">
+            <h2 class="zoom-loop">Featured Items</h2>
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <div class="card"> 
+                        <img src="assets/images/cards/image1.webp" class="shadow-inset" alt="">
+                        <div class="card-body text-center">
+                            <div class="card-title text-white">
+                                <p>Pad Thai</p>
+                            </div>
+                            <div class="card-price text-white">
+                                <p>$12.95</p>
+                            </div>
+                            <span class="badge">#1 Most Liked</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card"> 
+                        <img src="assets/images/cards/image2.webp" class="shadow-inset" alt="">
+                        <div class="card-body text-center">
+                            <div class="card-title text-white">
+                                <p>Tom Yum Goong</p>
+                            </div>
+                            <div class="card-price text-white">
+                                <p>$13.95</p>
+                            </div>
+                            <span class="badge">#2 Most Liked</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card"> 
+                        <img src="assets/images/cards/image3.webp" class="shadow-soft" alt="">
+                        <div class="card-body text-center">
+                            <div class="card-title text-white">
+                                <p>Green Curry</p>
+                            </div>
+                            <div class="card-price text-white">
+                                <p>$14.95</p>
+                            </div>
+                            <span class="badge">#3 Most Liked</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card"> 
+                        <img src="assets/images/cards/image4.webp" class="shadow-inset" alt="">
+                        <div class="card-body text-center">
+                            <div class="card-title text-white">
+                                <p>Massaman Curry</p>
+                            </div>
+                            <div class="card-price text-white">
+                                <p>$14.95</p>
+                            </div>
+                            <span class="badge">#4 Most Liked</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="/menu.html" class="button button-orange wiggle">Order Now</a>
+        </div>
+    </section>
+
+
+
+    <section class="reviews">
+        <div class="container text-center">
+            <h2 class="">Customer Reviews</h2>
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <!-- Reviews cards -->
+                    <div class="reviews-card text-start">
+                        <div class="rate"> 
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="review">
+                            <p>loved it.</p>
+                            <p>loved it. warm welcome, delicious food, nice cultural art. we were happy we made this selection just yards from our hotel.</p>
+                        </div>
+                        <div class="customer d-flex">
+                            <img src="assets/images/icons/fish.png" alt="">
+                            <p class="fw-semibold">Gladys C.</p>
+                        </div>
+                        <a href="https://www.yelp.com/biz/aroma-thai-imperial-beach?hrid=HpHvfZ_zNcltrNytsu6Uqg&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)" class="d-block text-end fw-semibold fs-">Read More</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <!-- Reviews cards -->
+                    <div class="reviews-card text-start">
+                        <div class="rate"> 
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="review">
+                            <p>Best Thai Food Ever!!</p>
+                            <p>Best Thai food in IB. Never misses. I love the noodles, curry , everything honestly! They are quick, responsive and most importantly delicious! </p>
+                        </div>
+                        <div class="customer d-flex">
+                            <img src="assets/images/icons/fish.png" alt="">
+                            <p class="fw-semibold">Jessika S.</p>
+                        </div>
+                        <a href="https://www.yelp.com/biz/aroma-thai-imperial-beach?hrid=ccXmgyuV0OspdbNP3Cuiiw&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)" class="d-block text-end fw-semibold fs-">Read More</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <!-- Reviews cards -->
+                    <div class="reviews-card text-start">
+                        <div class="rate"> 
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="review">
+                            <p>All Time Favorite!</p>
+                            <p>My all time favorite Thai food restaurant in IB. Close to the beach and close to work. Has a very nice Thai aesthetic. Always ready for the curry and Thai tea!
+                            </p>
+                        </div>
+                        <div class="customer d-flex">
+                            <img src="assets/images/icons/fish.png" alt="">
+                            <p class="fw-semibold">John H.</p>
+                        </div>
+                        <a href="https://www.yelp.com/biz/aroma-thai-imperial-beach?hrid=p-tlmS50VqOZz6Mbvw_UZQ&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)" class="d-block text-end fw-semibold fs-">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://www.yelp.com/biz/aroma-thai-imperial-beach" class="button button-green zoom-loop">See More Reviews</a>
+        </div>
+    </section>
+
+
+
+    <section class="feedback text-white text-center">
+        <div class="container-md">
+            <h2>Stay in the Loop</h2>
+            <p class="fs-lg">Get the latest when you sign up to join our email list!</p>
+            <form action="#" method="post">
+                <label for="feedback" class="sr-only">Your Feedback:</label><br>
+                <input type="text" id="feedback" name="feedback" placeholder="getdeals@aroma.thai">
+                <a href="#" class="button button-red">SUBMIT</a>
+            </form>
+        </div>
+    </section>
+
+    <section class="cta text-center">
+        <div class="container-md">
+            <h2 class="wiggle">Feeling Hungry?</h2>
+            <p class="fs-lg">come visit us in store or check out our menu</p>
+            <a href="/contact.html" class="button button-orange zoom-loop">Location</a>
+        </div>
+    </section>
+
+
+
+    <section class="footer">
+        <div class="footer-info-box">
+            <div class="container">
+               <div class="footer-block">
+                   <h4>Location</h4>
+                   <p>757 Seacoast Drive <br>
+                       Imperial Beach, CA 91932
+                   </p>
+               </div>
+               <div class="footer-block">
+                   <h4>Hours</h4>
+                   <p>Monday-Sunday <br>
+                       11:00am-10:30pm
+                   </p>
+               </div>
+               <div class="footer-block">
+                   <h4>Contact</h4>
+                   <p>
+                       (619) 941-1656 <br>
+                       <a class='email-link' href="mailto:contactus@aromathai.com">contactus@aromathai.com</a>
+                   </p>
+               </div> 
+               <div class="footer-block">
+                   <h4>Follow Us</h4>
+                   <div>
+                       <a href="https://instagram.com"><img class='socials' src="assets/images/instagram-brands.svg"></a>
+                       <a href="https://facebook.com"><img class='socials' src="assets/images/facebook-f-brands-solid.svg"></a>
+                       <a href="https://twitter.com"><img class='socials' src="assets/images/twitter-brands.svg"></a>
+                   </div>
+                </div>   
+           </div>
+       </div>
+       <div class="footer-copyright text-center">
+           <p>&copy; Copyright Aroma Thai. All Rights Reserved</p>
+       </div>
+
+    </section>
+
+    <a href="#top" class="toTop">↑</a>
+
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- Scripts -->
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
